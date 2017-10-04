@@ -1,7 +1,3 @@
-"""
-make_cifar10.py: Create training data from raw CIFAR-10 batches.
-"""
-
 import cPickle as pkl
 import glob
 import os
@@ -11,7 +7,7 @@ from skimage.io import imsave
 
 
 # PIXELS_DIR = "pixel_data"
-PIXELS_DIR = "/home/datasets/image_dataset/cifar100/frames"
+PIXELS_DIR = "DIR_TO_SAVE_THE_IMAGE_DATA"
 LABEL_FILE = "../train_labels.txt"
 
 
